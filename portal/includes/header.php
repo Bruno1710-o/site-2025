@@ -24,7 +24,7 @@
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="header"> Adicionar</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="planos.php"><i class="fa fa-address-card">&ensp;</i> Clientes</a></li>
-                            <li><a class="dropdown-item" href="planos.php"><i class="fa fa-leaf">&ensp;</i>Planos</a></li>
+                            <li><a class="dropdown-item" href="form_planos.php"><i class="fa fa-leaf">&ensp;</i>Planos</a></li>
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="planos.php"><i class="fa fa-calendar">&ensp;</i>Atendimento</a></li>
                         </ul>
@@ -42,7 +42,7 @@
                         </ul>
                         </li>
                     </ul>
-                <a class="btn btn-light" href="logout.php" role="button" id="header1">Sair</a>
+                <a class="btn btn-light" href="log.php" role="button" id="header1">Sair</a>
             </div>
         </div>
     </nav>
