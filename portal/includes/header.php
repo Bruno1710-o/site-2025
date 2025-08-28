@@ -42,7 +42,7 @@
                         </ul>
                         </li>
                     </ul>
-                <a class="btn btn-light" href="log.php" role="button" id="header1">Sair</a>
+                <a class="btn btn-light" href="login.php" role="button" id="header1">Sair</a>
             </div>
         </div>
     </nav>
