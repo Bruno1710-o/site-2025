@@ -20,6 +20,7 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" id="header" href="index.php"><i class="fa fa-home">&ensp;</i>Home</a>
                         </li>
+                    <?php if ($_SESSION['nivel'] != '3') { ?>
                         <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="header"> Adicionar</a>
                         <ul class="dropdown-menu">
@@ -29,6 +30,7 @@
                             <li><a class="dropdown-item" href="planos.php"><i class="fa fa-calendar">&ensp;</i>Atendimento</a></li>
                         </ul>
                         </li>
+                    <?php } ?>
                         <li class="nav-item">
                             <a class="nav-link" id="header" href="contato.php"><i class="fa fa-bar-chart">&ensp;</i>Fatura</a>
                         </li>
