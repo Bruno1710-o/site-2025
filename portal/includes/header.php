@@ -27,7 +27,7 @@
                             <li><a class="dropdown-item" href="planos.php"><i class="fa fa-address-card">&ensp;</i> Clientes</a></li>
                             <li><a class="dropdown-item" href="form_planos.php"><i class="fa fa-leaf">&ensp;</i>Planos</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="planos.php"><i class="fa fa-calendar">&ensp;</i>Atendimento</a></li>
+                            <li><a class="dropdown-item" href="lista_Planos.php"><i class="fa fa-calendar">&ensp;</i>Atendimento</a></li>
                         </ul>
                         </li>
                     <?php } ?>
@@ -38,7 +38,7 @@
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="header"> Listar</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="planos.php"><i class="fa fa-address-card">&ensp;</i> Clientes</a></li>
-                            <li><a class="dropdown-item" href="planos.php"><i class="fa fa-leaf">&ensp;</i>Planos</a></li>
+                            <li><a class="dropdown-item" href="lista_Planos.php"><i class="fa fa-leaf">&ensp;</i>Planos</a></li>
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="planos.php"><i class="fa fa-calendar">&ensp;</i>Atendimentos</a></li>
                         </ul>
