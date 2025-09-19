@@ -27,7 +27,14 @@ if(!in_array($nivel, $niveldapagina)){
             <center><h5> PREENCHA OS CAMPOS ABAIXO PARA ADICIONAR UM NOVO PLANO </h5></center>
 
             <hr>
-<form id="formContato" class="needs-validation" method="POST" action="cadastrar_plano.php">
+
+            <?php
+                if (isset($_SESSION['msFormPlano'])) {
+                    echo $_SESSION['msFormPlano'];
+                    unset($_SESSION['msFormPlano']);
+                }
+            ?>
+<form id="formContato" class="needs-validation" method="POST" action="cad_plano.php">
     <div class="form-row">
         <div class="col">
             <label for="nomePlano">Nome</label>
